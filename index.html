@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+        div {
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            max-width: 900px;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        thead th {
+            text-align: left;
+        }
+
+        .course-description-row {
+            column-span: all;
+            text-align: left;
+        }
+
+        .capitalized {
+            text-transform: uppercase;
+        }
+
+        .no-top-border th,
+        .no-top-border td {
+            border-top: none;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .no-border-financial tr{
+            border-top: none;
+            border-bottom: none;
+            border-top: none;
+        }
+
+        .spacing {
+            letter-spacing: 4px;
+        }
+
+        .left-align {
+            text-align: left;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .first-row-px th {
+            border-top: 1px solid black;
+        }
+
+        .light-weight {
+            font-weight: lighter;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .light-weight th {
+            font-weight: normal;
+        }
+
+        .light-weight th.left-align {
+            text-align: left;
+        }
+
+        .no-border-below th {
+            border-bottom: none;
+        }
+
+        .no-border-below td {
+            border-bottom: none;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        .remove td{
+            border-right: none; border-top: none; border-bottom: none;
+        }
+
+        .remove-f td {
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <table class="first-row-px">
+            <thead>
+                <tr>
+                    <th>Student Information</th>
+                    <th class="light-weight"><i>SY & Term:</i></th>
+                    <th class="light-weight">2324/2T</th>
+                    <th class="light-weight"><i>Program:</i></th>
+                    <th class="light-weight">BSCS</th>
+                    <th class="light-weight"><i>Year Level:</i></th>
+                    <th class="light-weight">2Y2</th>
+                </tr>
+            </thead>
+            <tr class="bold">
+                <td>02000223567</td>
+                <td colspan="2" class="capitalized">Miraflores</td>
+                <td colspan="2" class="capitalized">Mariel</td>
+                <td colspan="2" class="capitalized">Miraflores</td>
+            </tr>
+
+            <tr class="italic">
+                <td>Student No</td>
+                <td colspan="2">Last Name</td>
+                <td colspan="2">First Name</td>
+                <td colspan="2">Middle Name</td>
+            </tr>
+
+            <tr>
+                <td colspan="7" class="capitalized spacing">
+                    <strong>
+                        academic
+                    </strong>
+                </td>
+            </tr>
+
+            <tr></tr>
+
+        </table>
+    </div>
+
+    <div>
+
+        <table class="no-top-border">
+            <thead class="light-weight">
+                <tr>
+                    <!-- Apply left-align class to Course Description header -->
+                    <th class="left-align">Course Description</th>
+                    <th class="center">Units</th>
+                    <th class="center">Class No/Sec.</th>
+                    <th class="center">Days</th>
+                    <th class="center">Time</th>
+                    <th class="center">Room</th>
+                    <th class="center">Instructor</th>
+                </tr>
+            </thead>
+            <tr class="no-border-below">
+                <td class="left-align">Fundamentals of Web Programming</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21408/bscs401</td>
+                <td class="capitalized">m</td>
+                <td class="capitalized left-align">5:00pm - 7:00pm</td>
+                <td class="capitalized left-align">TBD</td>
+                <td class="capitalized left-align">Calija, Vincent Bryan</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="capitalized">th</td>
+                <td class="capitalized left-align">2:00pm - 5:00pm</td>
+                <td></td>
+                <td class="capitalized left-align">Fauive</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Information Management</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21001 / BSCS401</td>
+                <td class="capitalized">t</td>
+                <td class="capitalized left-align">8:00am - 10:00am</td>
+                <td class="capitalized left-align">302</td>
+                <td class="capitalized left-align">Ubas, Elvi Lito</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="capitalized">w</td>
+                <td class="capitalized left-align">11:00am - 2:00pm</td>
+                <td class="capitalized left-align">comlab3</td>
+                <td class="capitalized left-align">Estampa</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Great Books</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21413 / BSCS401</td>
+                <td class="capitalized">t</td>
+                <td class="capitalized left-align">1:30am - 4:30pm</td>
+                <td class="capitalized left-align">302</td>
+                <td class="capitalized left-align">Relativo, Kimberly</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Philippine Popular Culture</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21009 / BSCS401</td>
+                <td class="capitalized">tf</td>
+                <td class="capitalized left-align">12:00pm - 1:30pm</td>
+                <td class="capitalized left-align">103</td>
+                <td class="capitalized left-align">Tagud, Charlie Jame</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Ethics</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21011 / BSCS401</td>
+                <td class="capitalized">W</td>
+                <td class="capitalized left-align">2:00pm - 5:00pm</td>
+                <td class="capitalized left-align">401</td>
+                <td class="capitalized left-align">Relativo, Kimberly</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Computer Systems Architecture</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21051 / BSCS401</td>
+                <td class="capitalized">W</td>
+                <td class="capitalized left-align">5:00pm - 8:00pm</td>
+                <td class="capitalized left-align">301</td>
+                <td class="capitalized left-align">Eric, Ricablanca</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Human-Computer Interaction</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21407 / BSCS401</td>
+                <td class="capitalized">f</td>
+                <td class="capitalized left-align">7:30am - 9:30am</td>
+                <td class="capitalized left-align">401</td>
+                <td class="capitalized left-align">Bandayanon, Charish</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="capitalized">m</td>
+                <td class="capitalized left-align">2:00pm - 5:00pm</td>
+                <td class="capitalized left-align">comlab2</td>
+                <td class="capitalized left-align">Bandayanon, Charish</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">P.E./Pathfit 4: Team Sports</td>
+                <td>2.00</td>
+                <td class="capitalized left-align">21034 / BSCS401</td>
+                <td class="capitalized">s</td>
+                <td class="capitalized left-align">10:00am - 12:00pm</td>
+                <td class="capitalized left-align">Dining</td>
+                <td class="capitalized left-align">Opsimar, Swetzel</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Design and Analysis of Algorithms</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">20988 / BSCS401</td>
+                <td class="capitalized">s</td>
+                <td class="capitalized left-align">1:00pm - 4:00pm</td>
+                <td class="capitalized left-align">301</td>
+                <td class="capitalized left-align">Eric, Ricablanca</td>
+            </tr>
+            
+            <tr>
+                <td class="right-align">Total Units:</td>
+                <td><strong>
+                    26
+                </strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div>
+
+        <table>
+            <tr class="no-top-border">
+                <td colspan="7" class="capitalized spacing">
+                    <strong>
+                        financial
+                    </strong>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div>
+
+        <table style="border: none;">
+
+            <tr class="no-top-border">
+                <td style="border-right: none; border-bottom: none;"> Student Group: </td>
+                <td style="border-right: none; border-left: none;border-bottom: none;"> Tertiary - Low Monthly Payment</td>
+                <td style="border-left: none;border-bottom: none;" class="capitalized bold"> Payments and other adjustments</td>
+            </tr>
+
+            
+
+        </table>
+
+    </div>
+
+
+</body>
+
+</html>
