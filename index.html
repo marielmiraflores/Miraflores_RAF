@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Miraflores RAF</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+        html, body {
+    margin: 10px;
+    padding: 0;
+    }
+
+    div {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        th,
+        td {
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        thead th {
+            text-align: left;
+        }
+
+        .course-description-row {
+            column-span: all;
+            text-align: left;
+        }
+
+        .capitalized {
+            text-transform: uppercase;
+        }
+
+        .no-top-border th,
+        .no-top-border td {
+            border-top: none;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .no-border-financial tr{
+            border-top: none;
+            border-bottom: none;
+            border-top: none;
+        }
+
+        .spacing {
+            letter-spacing: 4px;
+        }
+
+        .left-align {
+            text-align: left;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .first-row-px th {
+            border-top: 1px solid black;
+        }
+
+        .light-weight {
+            font-weight: lighter;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .light-weight th {
+            font-weight: normal;
+        }
+
+        .light-weight th.left-align {
+            text-align: left;
+        }
+
+        .no-border-below th {
+            border-bottom: none;
+        }
+
+        .no-border-below td {
+            border-bottom: none;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        .remove td{
+            border-right: none; border-top: none; border-bottom: none;
+        }
+
+        .remove-f td {
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+        }
+
+        .financial-table {
+        width: 100%;
+        border-collapse: collapse;
+        }
+
+        .right-padding{
+            padding-right: 20px;
+        }
+        .financial-table tr td:first-child {
+            border-left: none; 
+        }
+
+        .financial-table tr td:last-child {
+            border-right: none;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        .padd {
+            padding-left: 10px;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="STI Logo" style="float: left; margin-right: 10px; max-height: 50px;">
+        <div style="text-align: center;">
+            <h1>STI College Davao</h1>
+            <p style="text-align: center; float: center;font-size: small; margin-top: -25px;">506 J.P. Laurel Ave. cor. Acacia, Davao City<br>Tel No. 082 222019 or 205219</p>
+            <p class="bold" style="float: right; margin-top: -70px;">Registration and <br>Assessment Form</p>
+        </div>
+    </header>
+    <div>
+        <table class="first-row-px">
+            <thead>
+                <tr>
+                    <th>Student Information</th>
+                    <th class="light-weight"><i>SY & Term:</i></th>
+                    <th class="light-weight">2324/2T</th>
+                    <th class="light-weight"><i>Program:</i></th>
+                    <th class="light-weight">BSCS</th>
+                    <th class="light-weight"><i>Year Level:</i></th>
+                    <th class="light-weight">2Y2</th>
+                </tr>
+            </thead>
+            <tr class="bold">
+                <td>02000223567</td>
+                <td colspan="2" class="capitalized">Miraflores</td>
+                <td colspan="2" class="capitalized">Mariel</td>
+                <td colspan="2" class="capitalized">Miraflores</td>
+            </tr>
+
+            <tr class="italic">
+                <td>Student No</td>
+                <td colspan="2">Last Name</td>
+                <td colspan="2">First Name</td>
+                <td colspan="2">Middle Name</td>
+            </tr>
+
+            <tr>
+                <td colspan="7" class="capitalized spacing">
+                    <strong>
+                        academic
+                    </strong>
+                </td>
+            </tr>
+
+            <tr></tr>
+
+        </table>
+    </div>
+
+    <div>
+
+        <table class="no-top-border">
+            <thead class="light-weight">
+                <tr>
+                    <th class="left-align">Course Description</th>
+                    <th class="center">Units</th>
+                    <th class="center">Class No/Sec.</th>
+                    <th class="center">Days</th>
+                    <th class="center">Time</th>
+                    <th class="center">Room</th>
+                    <th class="center">Instructor</th>
+                </tr>
+            </thead>
+            <tr class="no-border-below">
+                <td class="left-align">Fundamentals of Web Programming</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21408/bscs401</td>
+                <td class="capitalized">m</td>
+                <td class="capitalized left-align">5:00pm - 7:00pm</td>
+                <td class="capitalized left-align">TBD</td>
+                <td class="capitalized left-align">Calija, Vincent Bryan</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="capitalized">th</td>
+                <td class="capitalized left-align">2:00pm - 5:00pm</td>
+                <td></td>
+                <td class="capitalized left-align">Fauive</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Information Management</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21001 / BSCS401</td>
+                <td class="capitalized">t</td>
+                <td class="capitalized left-align">8:00am - 10:00am</td>
+                <td class="capitalized left-align">302</td>
+                <td class="capitalized left-align">Ubas, Elvi Lito</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="capitalized">w</td>
+                <td class="capitalized left-align">11:00am - 2:00pm</td>
+                <td class="capitalized left-align">comlab3</td>
+                <td class="capitalized left-align">Estampa</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Great Books</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21413 / BSCS401</td>
+                <td class="capitalized">t</td>
+                <td class="capitalized left-align">1:30am - 4:30pm</td>
+                <td class="capitalized left-align">302</td>
+                <td class="capitalized left-align">Relativo, Kimberly</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Philippine Popular Culture</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21009 / BSCS401</td>
+                <td class="capitalized">tf</td>
+                <td class="capitalized left-align">12:00pm - 1:30pm</td>
+                <td class="capitalized left-align">103</td>
+                <td class="capitalized left-align">Tagud, Charlie Jame</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Ethics</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21011 / BSCS401</td>
+                <td class="capitalized">W</td>
+                <td class="capitalized left-align">2:00pm - 5:00pm</td>
+                <td class="capitalized left-align">401</td>
+                <td class="capitalized left-align">Relativo, Kimberly</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Computer Systems Architecture</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21051 / BSCS401</td>
+                <td class="capitalized">W</td>
+                <td class="capitalized left-align">5:00pm - 8:00pm</td>
+                <td class="capitalized left-align">301</td>
+                <td class="capitalized left-align">Eric, Ricablanca</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Human-Computer Interaction</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">21407 / BSCS401</td>
+                <td class="capitalized">f</td>
+                <td class="capitalized left-align">7:30am - 9:30am</td>
+                <td class="capitalized left-align">401</td>
+                <td class="capitalized left-align">Bandayanon, Charish</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="capitalized">m</td>
+                <td class="capitalized left-align">2:00pm - 5:00pm</td>
+                <td class="capitalized left-align">comlab2</td>
+                <td class="capitalized left-align">Bandayanon, Charish</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">P.E./Pathfit 4: Team Sports</td>
+                <td>2.00</td>
+                <td class="capitalized left-align">21034 / BSCS401</td>
+                <td class="capitalized">s</td>
+                <td class="capitalized left-align">10:00am - 12:00pm</td>
+                <td class="capitalized left-align">Dining</td>
+                <td class="capitalized left-align">Opsimar, Swetzel</td>
+            </tr>
+
+            <tr class="no-border-below">
+                <td class="left-align">Design and Analysis of Algorithms</td>
+                <td>3.00</td>
+                <td class="capitalized left-align">20988 / BSCS401</td>
+                <td class="capitalized">s</td>
+                <td class="capitalized left-align">1:00pm - 4:00pm</td>
+                <td class="capitalized left-align">301</td>
+                <td class="capitalized left-align">Eric, Ricablanca</td>
+            </tr>
+            
+            <tr>
+                <td class="right-align">Total Units:</td>
+                <td><strong>
+                    26
+                </strong></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div>
+
+        <table>
+            <tr class="no-top-border">
+                <td colspan="7" class="capitalized spacing">
+                    <strong>
+                        financial
+                    </strong>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div>
+        <table class="no-top-border">
+            <tr>
+                <td class="italic left right-padding" style="border-bottom: none; border-right: none; text-align: right;">Student Group: </td>
+                <td class="bold right-padding" style="border: none; text-align: left;">Tertiary - Low Monthly Payment</td>
+                <td class="bold capitalized" style="border-bottom: none; border-right: none; border-left: none; text-align: left;">PAYMENT AND OTHER ADJUSTMENTS</td>
+                <td style="border-bottom: none; border-left: none; border-bottom: none;"></td>
+            </tr>
+
+            <tr>
+                <td class="bold right-padding" style="border-bottom: none; border-right: none; padding-left: 10px;">CHARGES for 2023-2024/2nd Term</td>
+                <td style="border: none;"></td>
+                <td class="capitalized" style="border-bottom: none; border-right: none; border-left: none; ">SPONSORSHIP</td>
+                <td style="border-bottom: none; border-left: none; border-bottom: none;"></td>
+            </tr>
+
+            <tr>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none;">tuition fees</td>
+                <td style="border: none;">24,990.00</td>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none; border-left: none;">payment</td>
+                <td class="right" style="border-bottom: none; border-left: none; border-bottom: none;">(2,000.00)</td>
+            </tr>
+
+            <tr>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none;">other school fees</td>
+                <td style="border: none;">6,627.00</td>
+                <td class="capitalized left-align"  style="border-bottom: none; border-right: none; border-left: none;">refund</td>
+                <td style="border-bottom: none; border-left: none; border-bottom: none;"></td>
+            </tr>
+
+            <tr>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none;">miscellaneous fees</td>
+                <td style="border: none;">1,645.00</td>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none; border-left: none;">Net Balance</td>
+                <td style="border-top: 2px solid black; border-left: none; border-bottom: none; text-align: right; padding-right: 10px;">31,262.00</td>
+            </tr>
+
+            <tr>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none;">    </td>
+                <td style="border: none; color: white;"> mma </td>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none; border-left: none;">   </td>
+                <td style="border-top: none; border-left: none; border-bottom: none;">   </td>
+            </tr>
+
+            <tr>
+                <td class="bold" style="border-bottom: none; border-right: none; text-align: right">Total Assessment</td>
+                <td style="border: none;">33,262.00</td>
+                <td class="bold" style="border-bottom: none; border-right: none; border-left: none; text-align: right">Total Current Balance</td>
+                <td style="border-top: 2px solid black; border-left: none; border-bottom: none; text-align: right; padding-right: 10px;">31,262.00</td>
+            </tr>
+
+            <tr>
+                <td style="border-bottom: none; border-right: none;">    </td>
+                <td style="border: none; color: white;"></td>
+                <td class="bold capitalized"  style="border-bottom: none; border-right: none; border-left: none;">Payment Schedule</td>
+                <td style="border-top: none; border-left: none; border-bottom: none;">   </td>
+            </tr>
+
+            <tr>
+                <td class="capitalized left-align bold" style="border-bottom: none; border-right: none;">Other charges and adjustments</td>
+                <td style="border: none;"></td>
+                <td style="border-bottom: none; border-right: none; border-left: none;"></td>
+                <td style="border-top: none; border-left: none; border-bottom: none;">Amount Due</td>
+            </tr>
+
+            <tr>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none;">scholarship / discount</td>
+                <td style="border: none;">-</td>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none; border-left: none;">upon enrollment</td>
+                <td style="border-top: none; border-left: none; border-bottom: none; text-align: right; padding-right: 10px;">9,130.10</td>
+            </tr>
+
+            <tr>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none;">Additional charges</td>
+                <td style="border: none;">-</td>
+                <td class="left-align" style="border-bottom: none; border-right: none; border-left: none;">March 05, 2024</td>
+                <td style="border-top: none; border-left: none; border-bottom: none; text-align: right; padding-right: 10px;"">5,691.08</td>
+            </tr>
+
+            <tr>
+                <td class="capitalized left-align" style="border-bottom: none; border-right: none;">Credit adjustment</td>
+                <td style="border: none;">-</td>
+                <td class="left-align" style="border-bottom: none; border-right: none; border-left: none;">April 12, 2024</td>
+                <td style="border-top: none; border-left: none; border-bottom: none; text-align: right; padding-right: 10px;"">5,691.08</td>
+            </tr>
+
+            <tr>
+                <td class="bold" style="border-bottom: none; border-right: none;">Net Assessment</td>
+                <td style="border: none;">33,262.00</td>
+                <td class="left-align" style="border-bottom: none; border-right: none; border-left: none;">May 10, 2024</td>
+                <td style="border-top: none; border-left: none; border-bottom: none; text-align: right; padding-right: 10px;"">5,674.08</td>
+            </tr>
+
+            <tr>
+                <td style="border-bottom: none; border-right: none;"></td>
+                <td style="border: none;"></td>
+                <td class="left-align" style="border-bottom: none; border-right: none; border-left: none;">June 04, 2024</td>
+                <td style="border-top: none; border-left: none; border-bottom: none; text-align: right; padding-right: 10px;">5,674.08</td>
+            </tr>
+
+            <tr>
+                <td style="border-bottom: none; border-right: none;"></td>
+                <td style="border: none;"></td>
+                <td class="bold" style="border-bottom: none; border-right: none; border-left: none;">Total Outstanding Balance</td>
+                <td style="border-top: none; border-left: none; border-bottom: none; text-align: right; padding-right: 10px;"</td>
+            </tr>
+
+            <tr>
+                <td colspan="5" class="left-align capitalized bold custom-row" style="font-size: 10px;">
+                    This is a system generated assessment. Any alteration by the school or any other party is not authorized and may render your <br>enrollment and payment invalid. Please report any violation to<u>report@sti.edu</u>.
+                </td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <div>
+        <p style="font-size: 12px;">
+            You may access your student email account after three (3) wordking days. Your email credentials are: <br>
+            Email account/username:  <u>miraflores.223566@davao.sti.edu.ph</u> <br>
+            Your password is MirafloresYYYYMMDD where YYYYMMDD is your birthdate. <br>
+            e.g. for December 13, 2018, YYYYMMDD is 20181231
+        </p>
+    </div>
+</body>
+
+</html>
